@@ -14,7 +14,6 @@ header {
   background-color: black;
   border-bottom: 1px solid SeaShell;
   align-items: center;
-  text-decoration: underline;
 }
 
 header img{
@@ -24,6 +23,7 @@ header img{
 
 /*  MAIN*/
 body{
+  width:100%;
   margin: auto;
   font-family: Helvetica, sans-serif;
   color: SeaShell;
@@ -55,7 +55,6 @@ main{
 /*  MISSION*/
 #mission{
   height: 700px;
-  width:1200px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   padding-top:70px;
 }
@@ -116,13 +115,12 @@ h2 h3 h4 h5{
 #locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
-  width:1200px;
   padding-top: 15px;
+  background-size: 100%;
 }
 
 #locations .flex-container {
   margin: auto;
-  width: 1200px;
 }
 
 .flex-container .locations{
